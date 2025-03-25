@@ -1,0 +1,157 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+}
+
+.dashboard-container {
+    display: flex;
+    
+}
+
+.sidebar {
+    width: 320px;
+    background-color: #2b3a55;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sidebar-header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.sidebar-header h2 {
+    font-size: 22px;
+    color: white;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar nav ul li a i {
+    margin-right: 10px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #4c7cd3;
+}
+
+.sidebar nav ul li a.active {
+    background-color: #4c7cd3;
+}
+
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+
+/* Member Details */
+.member-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.member-details h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.member-details p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Category Buttons */
+.category-buttons {
+    margin-top: 20px;
+}
+
+.category-btn {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #4c7cd3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.category-btn:hover {
+    background-color: #3b64a2;
+}
+
+/* Table */
+.member-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.member-table th, .member-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.member-table th {
+    background-color: #4c7cd3;
+    color: white;
+}
+
+.member-table td {
+    background-color: #fff;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #4c7cd3;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b64a2;
+}
